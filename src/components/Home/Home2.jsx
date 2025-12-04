@@ -6,8 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  AiOutlineFacebook,
-  } from "react-icons/ai";
+} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -20,33 +19,41 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming, insfrastructure management and automating tasks, A kind of genius in my field, I think… 🤷‍♂️
+              I'm a DevOps Engineer who transforms complex infrastructure challenges into elegant, automated solutions. 🚀
               <br />
-              <br />I am fluent in classics like
+              <br />
+              My technical arsenal includes
               <i>
-                <b className="purple"> C/C++, Javascript, Shell and Python. </b>
+                <b className="purple"> AWS, Azure, Kubernetes, and Docker</b>
+              </i>
+              , powered by automation tools like
+              <i>
+                <b className="purple"> Terraform, Ansible, and GitLab CI/CD.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I'm proficient in scripting with &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple">Python and Bash</b>
+              </i>
+              , which I use to build intelligent automation workflows, monitoring solutions, and infrastructure provisioning tools.
+              <br />
+              <br />
+              My recent achievements include
+              <i>
+                <b className="purple"> reducing cloud costs by 25%</b>
+              </i>
+              , achieving
+              <i>
+                <b className="purple"> 90%+ security compliance</b>
+              </i>
+              , and cutting deployment times by
+              <i>
+                <b className="purple"> 75% through Infrastructure as Code.</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with
-              <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Node.js and React.js</b>
-              </i>
+              Whether it's containerizing applications, setting up CI/CD pipelines, or implementing security best practices, I focus on delivering solutions that are <b className="purple">scalable, secure, and maintainable</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -98,18 +105,9 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  aria-label="Instagram"
                 >
                   <AiFillInstagram />
-                </a>
-                </li>
-                <li className="social-icons">
-                <a
-                  href="https://www.facebook.com/getsan4u/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiOutlineFacebook />
                 </a>
               </li>
             </ul>
