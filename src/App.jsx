@@ -38,7 +38,7 @@ function App() {
 
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename="/portfolio-sanjid-salam">
         <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Navbar theme={theme} toggleTheme={toggleTheme} />
