@@ -38,7 +38,7 @@ function App() {
 
   return (
     <HelmetProvider>
-      <Router basename="/portfolio-sanjid-salam">
+      <Router basename={import.meta.env.VITE_BASE_PATH || '/'}>
         <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Navbar theme={theme} toggleTheme={toggleTheme} />
